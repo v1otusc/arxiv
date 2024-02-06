@@ -1,31 +1,31 @@
-site_title = "MyArxiv"
-limit_days = 7
+site_title = "daily arxiv"
+limit_days = 30
 cache_url = "https://v1otusc.github.io/arxiv/cache.json"
 
 [[sources]]
-limit = 150
-category = "cs.CL"
-title = "Computation and Language"
+limit = 300
+category = "cs.RO"
+title = "Robotics"
 
 [[sources]]
-limit = 150
+limit = 300
 category = "cs.CV"
 title = "Computer Vision and Pattern Recognition"
 
 [[sources]]
-limit = 150
-category = "cs.IR"
-title = "Information Retrieval"
+limit = 300
+category = "cs.AI"
+title = "Artificial Intelligence"
 
 [[sources]]
-limit = 150
+limit = 300
 category = "cs.LG"
 title = "Machine Learning"
 
 [[sources]]
-limit = 150
-category = "cs.MM"
-title = "Multimedia"
+limit = 300
+category = "cs.GR"
+title = "Graphics"
 
 [scripts]
 highlight_title = "scripts/highlight_title.rhai"
