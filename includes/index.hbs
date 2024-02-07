@@ -116,13 +116,13 @@
 <footer>
     <div>
         <time id="build-timestamp" datetime="{{build_time}}">
-            <a href="https://github.com/MLNLP-World/MyArxiv/actions">
+            <a href="https://github.com/v1otusc/arxiv/actions">
                 <img id="build-timestamp-badge"
-                     src="https://img.shields.io/github/workflow/status/v1otusc/myarxiv/Update?label={{time_format
-                    build_time "%F %T %Z"}}&style=for-the-badge"
+                    src="https://img.shields.io/github/actions/workflow/status/v1otusc/arxiv/update-feed.yml?
+                        style=for-the-badge&logo=github&label={{time_format build_time "%F %T %Z"}}"
                 alt="{{time_format build_time "%F %T %Z"}}">
             </a>
-            {{time_format build_time "%F %T %Z"}}
+            {{!-- {{time_format build_time "%F %T %Z"}} --}}
         </time>
     </div>
 </footer>
