@@ -1,5 +1,5 @@
 site_title = "daily arxiv"
-limit_days = 30
+limit_days = 7
 cache_url = "https://v1otusc.github.io/arxiv/cache.json"
 
 [[sources]]
